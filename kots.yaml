@@ -1,6 +1,6 @@
 package:
   name: kots
-  version: 1.109.1
+  version: 1.109.6
   epoch: 0
   description: Kubernetes Off-The-Shelf (KOTS) Software
   copyright:
@@ -22,7 +22,7 @@ pipeline:
     with:
       repository: https://github.com/replicatedhq/kots
       tag: v${{package.version}}
-      expected-commit: 710df616daac5a11c5a794e0af706c9b077cdd4f
+      expected-commit: 9fc5f67829f68cb13bc5dd909f0e8913d95d75dc
 
   - runs: |
       set -x
