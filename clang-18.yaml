@@ -10,10 +10,11 @@ package:
     memory: 64Gi
   dependencies:
     runtime:
-      - clang-18-dev
       - gcc
       - glibc-dev
       - libLLVM-18
+      - libLLVM-18
+      - libclang-cpp-18
       - llvm-18
 
 environment:
@@ -117,15 +118,6 @@ pipeline:
   - uses: strip
 
 subpackages:
-  - name: "clang-18-dev"
-    description: "headers for clang-18"
-    pipeline:
-      - uses: split/dev
-    dependencies:
-      runtime:
-        - libLLVM-18
-        - libclang-cpp-18
-
   - name: "libclang-cpp-18"
     description: "Clang 18 runtime library"
     pipeline:
