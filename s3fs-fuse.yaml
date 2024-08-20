@@ -5,31 +5,19 @@ package:
   description: FUSE-based file system backed by Amazon S3
   copyright:
     - license: GPL-2.0-only
-  # https://github.com/s3fs-fuse/s3fs-fuse/blob/master/COMPILATION.md#note---the-required-librariescomponents-required-to-run-s3fs-are
-  dependencies:
-    runtime:
-      - fuse2
-      - openssl
-      - curl
-      - libxml2
 
 environment:
   contents:
     packages:
-      - autoconf
-      - automake
       - bash
       - build-base
       - busybox
-      - ca-certificates-bundle
       - curl-dev
       - fuse2-dev
-      - gcc
       - gettext-dev
-      - git
       - libtool
       - libxml2-dev
-      - openssl-dev
+      - pkgconf-dev
 
 pipeline:
   - uses: git-checkout
@@ -37,12 +25,6 @@ pipeline:
       repository: https://github.com/s3fs-fuse/s3fs-fuse
       tag: v${{package.version}}
       expected-commit: 70a30d6e26a5dfd07a00cf79ce1196079e5ab11a
-
-  - runs: autoupdate
-
-  - runs: ./autogen.sh
-
-  - runs: autoreconf -vif
 
   - uses: autoconf/configure
 
