@@ -10,5 +10,5 @@ commit = deea42fba2b15c56f05f5bb78106c8dbd8d459a1
 builddate = 1727270792
 license = MIT
 depend = python-3.12-base
-# vendored = pc:xcb-proto=1.17.0-r1
+provides = pc:xcb-proto=1.17.0-r1
 datahash = 334ec23f60fcb9ecd9678080c4588da583df8c481eee49f7c939e6ac847572b0

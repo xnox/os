@@ -11,6 +11,7 @@ builddate = 1727703348
 license = BSD-3-Clause
 depend = py3.10-pybind11
 depend = python-3.10-base
+provides = pc:pybind11=2.13.6-r1
 provides = py3-pybind11
 provides = py3-pybind11-dev
 # vendored = pc:pybind11=2.13.6-r1
@@ -29,6 +30,7 @@ builddate = 1727703348
 license = BSD-3-Clause
 depend = py3.11-pybind11
 depend = python-3.11-base
+provides = pc:pybind11=2.13.6-r1
 provides = py3-pybind11
 provides = py3-pybind11-dev
 # vendored = pc:pybind11=2.13.6-r1
@@ -47,6 +49,7 @@ builddate = 1727703348
 license = BSD-3-Clause
 depend = py3.12-pybind11
 depend = python-3.12-base
+provides = pc:pybind11=2.13.6-r1
 provides = py3-pybind11
 provides = py3-pybind11-dev
 # vendored = pc:pybind11=2.13.6-r1
@@ -65,6 +68,7 @@ builddate = 1727703348
 license = BSD-3-Clause
 depend = py3.13-pybind11
 depend = python-3.13-base
+provides = pc:pybind11=2.13.6-r1
 provides = py3-pybind11
 provides = py3-pybind11-dev
 # vendored = pc:pybind11=2.13.6-r1

@@ -10,6 +10,5 @@ commit = 18c425e74b142ada8e43fae6a45226d19a4e005a
 builddate = 1711563952
 license = MIT
 depend = R
-depend = so:libR.so
 depend = so:libc.so.6
 datahash = e16d1cf1dc481909f5089aea84c19695cc97f6ba4da71e7114b4ede9703a8314

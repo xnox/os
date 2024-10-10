@@ -22,5 +22,5 @@ commit = 6b453ffb924bfbb97a6cebf6b2599a6c48971deb
 builddate = 1708173858
 license = MIT
 provides = cmd:scdoc=1.11.3-r0
-# vendored = pc:scdoc=1.11.3-r0
+provides = pc:scdoc=1.11.3-r0
 datahash = 99f6875e24fc870726f200eaadfc341d39e2f129df5998c4838b56539f9199f4

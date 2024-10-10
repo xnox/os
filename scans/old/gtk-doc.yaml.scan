@@ -24,5 +24,5 @@ provides = cmd:gtkdoc-rebase=1.34.0-r0
 provides = cmd:gtkdoc-scan=1.34.0-r0
 provides = cmd:gtkdoc-scangobj=1.34.0-r0
 provides = cmd:gtkdocize=1.34.0-r0
-# vendored = pc:gtk-doc=1.34.0-r0
+provides = pc:gtk-doc=1.34.0-r0
 datahash = cd73c9c2d2a60ca017599e06e36f7e9f8285acc708368c382a1abf44afb1beb1

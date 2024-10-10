@@ -9,5 +9,5 @@ url =
 commit = 3c85d0588cbc362fbee0ddba2e9da5e7cac0c055
 builddate = 1716315154
 license = GPL-2.0-only
-# vendored = pc:default-icon-theme=0.18-r0
+provides = pc:default-icon-theme=0.18-r0
 datahash = b7bfc86c48af36ce560849e24da914455e991177b054d53b9dc84172ce06b092

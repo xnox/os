@@ -12,7 +12,6 @@ license = GPL-2.0-only
 depend = R
 depend = freetype
 depend = libpng
-depend = so:libR.so
 depend = so:libc.so.6
 depend = so:libfreetype.so.6
 depend = zlib

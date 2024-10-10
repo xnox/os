@@ -16,9 +16,7 @@ depend = so:libcrypto.so.3
 depend = so:libcurl.so.4
 depend = so:libgcc_s.so.1
 depend = so:libm.so.6
-depend = so:librustc_driver-8a7ac08274365d5d.so
 depend = so:libssl.so.3
-depend = so:libstd-331f0fcb4e6df60f.so
 depend = so:libz.so.1
 provides = cmd:cargo-clippy=1.78.0-r4
 provides = cmd:cargo-fmt=1.78.0-r4

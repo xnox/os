@@ -119,7 +119,6 @@ depend = so:libfreerdp-shadow-subsystem2.so.2
 depend = so:libfreerdp-shadow2.so.2
 depend = so:libfreerdp2.so.2
 depend = so:libm.so.6
-depend = so:librdpgfx-client.so
 depend = so:libwinpr-tools2.so.2
 depend = so:libwinpr2.so.2
 provides = cmd:freerdp-proxy=2.11.7-r2

@@ -9,5 +9,5 @@ url =
 commit = 7fac02741507346d097b6dfebd0deee9b437e318
 builddate = 1713313254
 license = MIT
-# vendored = pc:xorg-macros=1.20.1-r0
+provides = pc:xorg-macros=1.20.1-r0
 datahash = 4794cda4e049a2482276460033b9732cbd7ad50b57ea38e3ccb3fe56b8689106

@@ -19,7 +19,6 @@ depend = Rcpp
 depend = gdal
 depend = geos
 depend = proj
-depend = so:libR.so
 depend = so:libc.so.6
 depend = so:libgcc_s.so.1
 depend = so:libgdal.so.35

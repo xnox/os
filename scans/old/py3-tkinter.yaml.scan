@@ -11,7 +11,5 @@ builddate = 1725780800
 license = PSF-2.0
 depend = cmd:python3.11
 depend = so:libc.so.6
-depend = so:libtcl8.6.so
-depend = so:libtk8.6.so
 provides = cmd:idle3.11=3.11.10-r0
 datahash = 105f5004d6f6d7c8f6dbc743e7580f7928e8ae245b86226bbe5b95bf1e49c48a

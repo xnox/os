@@ -11,5 +11,4 @@ builddate = 1711563952
 license = GPL-2.0-only OR GPL-3.0-only
 depend = R
 depend = R-e1071
-depend = so:libR.so
 datahash = d0e7fdd8bc23cac22b8bb9c3618e5bed2551c7b77de1581c53cf49a563e08cda

@@ -9,5 +9,5 @@ url =
 commit = deea42fba2b15c56f05f5bb78106c8dbd8d459a1
 builddate = 1727270792
 license = MIT
-# vendored = pc:xtrans=1.5.0-r2
+provides = pc:xtrans=1.5.0-r2
 datahash = 289d6ab0d7636a948655af1e403e737f6d866e668e7083c7623e97a59acc38d4

@@ -16,9 +16,7 @@ depend = so:libcrypto.so.3
 depend = so:libcurl.so.4
 depend = so:libgcc_s.so.1
 depend = so:libm.so.6
-depend = so:librustc_driver-aeb6141770a0144f.so
 depend = so:libssl.so.3
-depend = so:libstd-3a3d039f4bcfdc44.so
 depend = so:libz.so.1
 provides = cmd:cargo=1.76.0-r0
 provides = cmd:rust-gdb=1.76.0-r0

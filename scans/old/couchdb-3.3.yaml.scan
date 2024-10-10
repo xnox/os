@@ -40,7 +40,6 @@ depend = so:libgcc_s.so.1
 depend = so:libicui18n.so.75
 depend = so:libicuuc.so.75
 depend = so:libm.so.6
-depend = so:libmozjs-91.so
 depend = so:libstdc++.so.6
 depend = so:libtinfo.so.6
 depend = so:libz.so.1

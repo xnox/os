@@ -25,7 +25,6 @@ builddate = 1726675605
 license = Apache-2.0
 depend = libLLVM-15
 depend = so:ld-linux-x86-64.so.2
-depend = so:libLLVM-16.so
 depend = so:libc.so.6
 depend = so:libgcc_s.so.1
 depend = so:libm.so.6

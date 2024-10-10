@@ -39,7 +39,6 @@ license = TCL
 depend = so:ld-linux-x86-64.so.2
 depend = so:libc.so.6
 depend = so:libm.so.6
-depend = so:libtcl9.0.so
 depend = so:libz.so.1
 provides = cmd:sqlite3_analyzer=9.0.0-r0
 provides = cmd:tclsh9.0=9.0.0-r0

@@ -20,16 +20,12 @@ url =
 commit = a366cdfcc7b93bc69b7abdd8e6a0a6fa7006e867
 license = Apache-2.0 AND MIT
 depend = so:ld-linux-x86-64.so.2
-depend = so:libLLVM-15-rust-1.68.2-stable.so
 depend = so:libc.so.6
 depend = so:libdl.so.2
 depend = so:libgcc_s.so.1
 depend = so:libm.so.6
 depend = so:libpthread.so.0
 depend = so:librt.so.1
-depend = so:librustc_driver-93862cade34bf92c.so
-depend = so:libstd-bc6b80525d6b1f3b.so
-depend = so:libtest-dfbb7690b1f6faf1.so
 depend = so:libz.so.1
 provides = cmd:cargo-clippy=1.68.2-r0
 provides = cmd:cargo-fmt=1.68.2-r0

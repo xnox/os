@@ -38,7 +38,6 @@ builddate = 1725643884
 license = LicenseRef-berkeley-db
 depend = so:ld-linux-x86-64.so.2
 depend = so:libc.so.6
-depend = so:libdb-5.3.so
 provides = cmd:db_archive=5.3.28-r2
 provides = cmd:db_checkpoint=5.3.28-r2
 provides = cmd:db_deadlock=5.3.28-r2

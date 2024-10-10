@@ -35,7 +35,6 @@ commit = 9558f8457e2186346c8b31d4c6003e23d6e63a54
 builddate = 1713660834
 license = Apache-2.0
 depend = so:ld-linux-x86-64.so.2
-depend = so:libLLVM-17.so
 depend = so:libc.so.6
 depend = so:libstdc++.so.6
 depend = so:libz.so.1

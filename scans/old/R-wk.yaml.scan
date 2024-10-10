@@ -10,7 +10,6 @@ commit = d581fd6fbd1241d2bafee4011a4251e17d92b78e
 builddate = 1725645696
 license = MIT
 depend = R
-depend = so:libR.so
 depend = so:libc.so.6
 depend = so:libgcc_s.so.1
 depend = so:libm.so.6

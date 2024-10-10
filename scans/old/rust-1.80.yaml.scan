@@ -15,9 +15,7 @@ depend = so:libc.so.6
 depend = so:libcrypto.so.3
 depend = so:libgcc_s.so.1
 depend = so:libm.so.6
-depend = so:librustc_driver-2118fa42a5878efc.so
 depend = so:libssl.so.3
-depend = so:libstd-ddae7f3953ed9aa6.so
 depend = so:libz.so.1
 provides = cmd:cargo-clippy=1.80.1-r0
 provides = cmd:cargo-fmt=1.80.1-r0

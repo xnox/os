@@ -73,7 +73,6 @@ depend = openssl-dev
 depend = pango
 depend = pcre-dev
 depend = so:ld-linux-x86-64.so.2
-depend = so:libR.so
 depend = so:libX11.so.6
 depend = so:libXmu.so.6
 depend = so:libXt.so.6

@@ -14,7 +14,6 @@ depend = R-wk
 depend = Rcpp
 depend = openssl
 depend = so:ld-linux-x86-64.so.2
-depend = so:libR.so
 depend = so:libc.so.6
 depend = so:libcrypto.so.3
 depend = so:libgcc_s.so.1

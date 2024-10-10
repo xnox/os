@@ -10,7 +10,6 @@ commit = 06bf025c8b569e358cfc5acad4bbfb003ee795b1
 builddate = 1721241863
 license = GPL-2.0-or-later
 depend = R
-depend = so:libR.so
 depend = so:libc.so.6
 depend = so:libgcc_s.so.1
 depend = so:libstdc++.so.6
