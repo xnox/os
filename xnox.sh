@@ -1,8 +1,3 @@
 #!/bin/sh
-
 set -x
-
-for i in $(ls *.yaml); do
-	[ $(pgrep -c melange) -gt $(nproc) ] && sleep 1
-	melange scan $i 2>&1 >scans/old/$i.scan &
-done
+ls *.yaml | xargs --replace={} --max-lines=1 --max-procs=$(nproc) sh -c 'melange scan {} >scans/old/$i.scan 2>&1'
