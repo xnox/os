@@ -9,6 +9,14 @@ url =
 commit = 9228e478f6e3e8f3707c696e1a270294b6e35350
 builddate = 1726601722
 license = LGPL-2.1-or-later
+depend = pc:expat
+depend = pc:gio-2.0
+depend = pc:glib-2.0
+depend = pc:gmodule-no-export-2.0
+depend = pc:gobject-2.0
+depend = pc:libexif
+depend = pc:libjpeg
+depend = pc:zlib
 depend = so:libvips-cpp.so.42
 depend = so:libvips.so.42
 provides = pc:vips-cpp=8.15.3-r1

@@ -9,6 +9,8 @@ url =
 commit = 569c69851c1406fb524bf6cc84908db50ad3b090
 builddate = 1707093027
 license = MIT
+depend = pc:kbproto
+depend = pc:x11
 depend = so:libxkbfile.so.1
 provides = pc:xkbfile=1.1.3-r0
 datahash = 3318f2d7e76c9f15cfd3cedd23ea9b3d4adbb838fb966d47616fe41d7731de33

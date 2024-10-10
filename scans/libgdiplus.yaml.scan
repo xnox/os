@@ -10,6 +10,9 @@ commit = 9228e478f6e3e8f3707c696e1a270294b6e35350
 builddate = 1726601722
 license = MIT
 depend = libgdiplus
+depend = pc:glib-2.0
+depend = pc:gmodule-2.0
+depend = pc:gthread-2.0
 depend = so:libgdiplus.so.0
 provides = pc:libgdiplus=6.1-r1
 datahash = d6fd0a43c51365a50ab521fbbf68e87eb063e3d342ca4c2b55beb9c7c919dc8b

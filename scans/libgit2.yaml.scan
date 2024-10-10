@@ -10,6 +10,9 @@ commit = b188f24d5d2fe765ac54d86c7c8aea6ef0058d43
 builddate = 1724897785
 license = GPL-2.0-only WITH GCC-exception-2.0
 depend = libgit2
+depend = pc:libpcre2-8
+depend = pc:openssl
+depend = pc:zlib
 depend = so:libgit2.so.1.8
 provides = pc:libgit2=1.8.1-r1
 datahash = 2e400fec196d343c8725119d7410c681f3c410fcf59e34e1c594a262c195790c

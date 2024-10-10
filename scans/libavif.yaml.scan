@@ -10,6 +10,8 @@ commit = 8ae79b93d0fd166a091a7622885d22b3d822de91
 builddate = 1722422382
 license = BSD-2-Clause
 depend = libavif
+depend = pc:aom
+depend = pc:dav1d
 depend = so:libavif.so.16
 provides = pc:libavif=1.1.1-r0
 datahash = f11baa774af7060b3efecec70fab0b3af9a101169ab09128576524ba8f3e0f29

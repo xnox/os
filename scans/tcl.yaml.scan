@@ -21,6 +21,7 @@ url =
 commit = b6d4e55af325d8a20de52336549a4728dab490e9
 builddate = 1727659643
 license = TCL
+depend = pc:zlib
 depend = tcl
 depend = tzdata
 provides = pc:tcl=9.0.0-r0

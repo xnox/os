@@ -46,6 +46,9 @@ url =
 commit = 9228e478f6e3e8f3707c696e1a270294b6e35350
 builddate = 1726601722
 license = MIT
+depend = pc:libcurl
+depend = pc:libtiff-4
+depend = pc:sqlite3
 depend = proj
 depend = so:libproj.so.25
 provides = pc:proj=9.5.0-r1

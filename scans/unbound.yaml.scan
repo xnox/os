@@ -21,6 +21,7 @@ url =
 commit = dbfed3a97f7d660a8e7965e8d28ed0b8e7b04cb5
 builddate = 1728039818
 license = BSD-3-Clause
+depend = pc:libevent
 depend = so:libunbound.so.8
 provides = pc:libunbound=1.21.1-r2
 datahash = 8688ce13cb727155eb09ab21f4bec8592f09142d166426c05e26031e26f92049

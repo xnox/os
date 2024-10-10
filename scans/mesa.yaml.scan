@@ -224,6 +224,15 @@ url =
 commit = 85930901dd05f584aa40968f3e13fec5922ba08e
 builddate = 1728418649
 license = MIT AND SGI-B-2.0 AND BSL-1.0
+depend = pc:libdrm
+depend = pc:x11
+depend = pc:x11-xcb
+depend = pc:xcb
+depend = pc:xcb-dri2
+depend = pc:xcb-glx
+depend = pc:xext
+depend = pc:xfixes
+depend = pc:xxf86vm
 provides = pc:d3d=24.2.4-r1
 provides = pc:dri=24.2.4-r1
 provides = pc:egl=24.2.4-r1

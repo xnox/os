@@ -9,6 +9,7 @@ url =
 commit = de8caa595f73a58839100dc790f49b17e8cc1657
 builddate = 1714690336
 license = SGI-B-1.1
+depend = pc:osmesa
 depend = so:libOSMesa.so.8
 depend = so:libc.so.6
 depend = so:libgcc_s.so.1

@@ -13,6 +13,11 @@ depend = brotli-dev
 depend = libpsl-dev
 depend = nghttp2-dev
 depend = openssl-dev
+depend = pc:libbrotlidec
+depend = pc:libnghttp2
+depend = pc:libpsl
+depend = pc:openssl
+depend = pc:zlib
 depend = so:libcurl.so.4
 provides = cmd:curl-config=8.10.1-r1
 provides = pc:libcurl=8.10.1-r1

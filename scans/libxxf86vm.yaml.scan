@@ -9,6 +9,9 @@ url =
 commit = 5b7eb24f03cb3479fc8a22b4531811081d6e0605
 builddate = 1686926105
 license = MIT
+depend = pc:x11
+depend = pc:xext
+depend = pc:xf86vidmodeproto
 depend = so:libXxf86vm.so.1
 provides = pc:xxf86vm=1.1.5-r0
 datahash = 4d14a738b0adfdfc2ee3d7a5142f838e931284f2f764cd506915b73b5e9a3efc

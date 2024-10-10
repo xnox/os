@@ -9,6 +9,7 @@ url =
 commit = b188f24d5d2fe765ac54d86c7c8aea6ef0058d43
 builddate = 1724897785
 license = MIT
+depend = pc:reproc
 depend = so:libc.so.6
 depend = so:libreproc.so.14
 depend = so:libstdc++.so.6

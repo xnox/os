@@ -11,6 +11,7 @@ builddate = 1724527623
 license = MIT
 depend = expat-dev
 depend = libffi-dev
+depend = pc:libffi
 depend = so:ld-linux-x86-64.so.2
 depend = so:libc.so.6
 depend = so:libexpat.so.1

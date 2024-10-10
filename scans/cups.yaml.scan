@@ -80,6 +80,7 @@ builddate = 1727701912
 license = GPL-2.0-only
 depend = cups
 depend = libgcrypt-dev
+depend = pc:openssl
 depend = zlib-dev
 provides = cmd:cups-config=2.4.11-r0
 provides = pc:cups=2.4.11-r0

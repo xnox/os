@@ -9,6 +9,7 @@ url =
 commit = 9228e478f6e3e8f3707c696e1a270294b6e35350
 builddate = 1726601722
 license = MIT
+depend = pc:fmt
 depend = so:libspdlog.so.1.14
 provides = pc:spdlog=1.14.1-r2
 datahash = 5ea8c362fc627a61b8f1be5184a1b526112fee3011a34fbd8240783c105c0784

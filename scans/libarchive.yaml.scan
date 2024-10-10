@@ -24,6 +24,7 @@ license = BSD-2-Clause
 depend = bzip2-dev
 depend = lz4-dev
 depend = openssl-dev
+depend = pc:libcrypto
 depend = so:libarchive.so.13
 depend = xz-dev
 depend = zlib-dev

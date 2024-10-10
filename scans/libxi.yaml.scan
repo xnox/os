@@ -11,6 +11,10 @@ builddate = 1728228590
 license = MIT AND X11
 depend = libxfixes-dev
 depend = libxi
+depend = pc:inputproto
+depend = pc:x11
+depend = pc:xext
+depend = pc:xfixes
 depend = so:libXi.so.6
 provides = pc:xi=1.8.2-r0
 datahash = b43406a06d186c56c98e0abfeb61284bff0f258fbb397c86f1021ce566260f9e

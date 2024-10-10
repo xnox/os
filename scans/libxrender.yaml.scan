@@ -10,6 +10,9 @@ commit = a2a945d8bd8072fc045a09aaea81d961e719e641
 builddate = 1719259078
 license = XFree86-1.1
 depend = libxrender
+depend = pc:renderproto
+depend = pc:x11
+depend = pc:xproto
 depend = so:libXrender.so.1
 provides = pc:xrender=0.9.11-r7
 datahash = 41703acc7c96ac3054990837eec65c178ddde1b9b3711a0f28523f0ff5ce8244

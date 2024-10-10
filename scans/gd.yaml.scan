@@ -11,6 +11,14 @@ builddate = 1718653406
 license = GD
 depend = cmd:perl
 depend = gd
+depend = pc:freetype2
+depend = pc:libavif
+depend = pc:libjpeg
+depend = pc:libpng
+depend = pc:libtiff-4
+depend = pc:libwebp
+depend = pc:xpm
+depend = pc:zlib
 depend = perl
 depend = so:libgd.so.3
 provides = cmd:bdftogd=2.3.3-r8

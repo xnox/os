@@ -21,6 +21,11 @@ url =
 commit = 9228e478f6e3e8f3707c696e1a270294b6e35350
 builddate = 1726601722
 license = LGPL-2.1-or-later
+depend = pc:flac
+depend = pc:ogg
+depend = pc:opus
+depend = pc:vorbis
+depend = pc:vorbisenc
 depend = so:libsndfile.so.1
 provides = pc:sndfile=1.2.0-r2
 datahash = 59a664d297e78aeb29959ccd2f7ca6372b500f378737aa501711cac4d52e2f0a

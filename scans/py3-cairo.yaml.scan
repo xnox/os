@@ -9,6 +9,7 @@ url =
 commit = d3e0492324307cda76d61c8508b3a28e3d26051f
 builddate = 1725649258
 license = LGPL-2.0-or-later
+depend = pc:cairo
 depend = py3-cairo
 depend = python-3.12-base
 provides = pc:py3cairo=1.27.0-r0

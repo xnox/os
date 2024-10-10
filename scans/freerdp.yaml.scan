@@ -22,6 +22,7 @@ commit = d6b85af36864e72f5d555ef719e8516c770ac37e
 builddate = 1715829061
 license = Apache-2.0
 depend = freerdp
+depend = pc:libssl
 depend = so:libfreerdp-client2.so.2
 depend = so:libfreerdp-server2.so.2
 depend = so:libfreerdp-shadow-subsystem2.so.2

@@ -9,6 +9,9 @@ url =
 commit = 6e193afeeff8c289a807c083f33aa8f0df5b2966
 builddate = 1714578134
 license = LGPL-2.1-or-later
+depend = pc:gdk-pixbuf-2.0
+depend = pc:gio-2.0
+depend = pc:glib-2.0
 depend = so:libnotify.so.4
 provides = pc:libnotify=0.8.3-r3
 datahash = f272bdf275a7781ca0a163a2396990ddd7c591d76e55adf3da87c4ed48e22905

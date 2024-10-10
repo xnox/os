@@ -9,6 +9,7 @@ url =
 commit = deea42fba2b15c56f05f5bb78106c8dbd8d459a1
 builddate = 1727270792
 license = MIT
+depend = pc:xcb
 depend = so:libxcb-keysyms.so.1
 depend = xcb-util-dev
 depend = xcb-util-keysyms

@@ -34,6 +34,7 @@ commit = 8e3138f4d8810f75d60b21339fd9a3f130748eed
 builddate = 1728530795
 license = Libpng
 depend = libpng
+depend = pc:zlib
 depend = so:libpng16.so.16
 provides = cmd:libpng16-config=1.6.44-r1
 provides = pc:libpng.pc

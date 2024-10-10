@@ -9,6 +9,10 @@ url =
 commit = 8152e9e492b0be025193ec8cc1eba411449ac47b
 builddate = 1709425881
 license = MIT
+depend = pc:x11
+depend = pc:xfixes
+depend = pc:xproto
+depend = pc:xrender
 depend = so:libXcursor.so.1
 provides = pc:xcursor=1.2.2-r0
 datahash = bb3a9e44ed8463e5a1123f1a088cae31cddbc530eb9cf1a57f1e679195874f7c

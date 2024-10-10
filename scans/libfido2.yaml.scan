@@ -10,6 +10,7 @@ commit = 36e601149a56d490e6b53f22a083cf01fffd65d0
 builddate = 1718285495
 license = BSD-2-Clause
 depend = libfido2
+depend = pc:libcrypto
 depend = so:libfido2.so.1
 provides = pc:libfido2=1.15.0-r0
 datahash = a9e67745549982304c374d4df2f3d05f883651f3eb08209134d2d1c85f21a157

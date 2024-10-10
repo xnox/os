@@ -11,6 +11,11 @@ builddate = 1713660834
 license = MIT
 depend = libxext-dev
 depend = libxrandr
+depend = pc:randrproto
+depend = pc:x11
+depend = pc:xext
+depend = pc:xproto
+depend = pc:xrender
 depend = so:libXrandr.so.2
 provides = pc:xrandr=1.5.4-r1
 datahash = 8d0201e8db8dba29041c3fd9c9bac55c9a69d8ea1829f0996d5b9f89808c1373

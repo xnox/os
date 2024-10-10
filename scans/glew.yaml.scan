@@ -30,6 +30,7 @@ commit = d455dc907b2f373fc85bf0b9dfef7434b532f854
 builddate = 1715608760
 license = GPL-2.0-or-later
 depend = glew
+depend = pc:glu
 depend = so:libGLEW.so.2.2
 provides = pc:glew=2.2.0-r0
 datahash = d45e95de003a05c296bb10ab1882e955dfc933927531b70804949056394b648e

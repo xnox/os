@@ -9,6 +9,7 @@ url =
 commit = b188f24d5d2fe765ac54d86c7c8aea6ef0058d43
 builddate = 1724897785
 license = BSD-3-Clause AND GPL-2.0-or-later
+depend = pc:ogg
 depend = so:libFLAC++.so.10
 depend = so:libFLAC.so.12
 provides = pc:flac++=1.4.3-r2

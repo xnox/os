@@ -10,6 +10,8 @@ commit = dd9d55c9154e78ff5d0d2eb513de2a198ef7f00f
 builddate = 1718653406
 license = GPL-2.0-only
 depend = apk-tools
+depend = pc:openssl
+depend = pc:zlib
 depend = so:libapk.so.2.14.0
 provides = pc:apk=2.14.4-r0
 datahash = 46628b34f86b11e8c32c11a7437ff37c7617e85535ea5a66e78d80985142c64c

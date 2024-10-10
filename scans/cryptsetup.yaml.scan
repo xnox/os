@@ -13,6 +13,11 @@ depend = cryptsetup
 depend = json-c-dev
 depend = lvm2-dev
 depend = openssl-dev
+depend = pc:blkid
+depend = pc:devmapper
+depend = pc:json-c
+depend = pc:openssl
+depend = pc:uuid
 depend = so:libcryptsetup.so.12
 depend = util-linux-dev
 provides = pc:libcryptsetup=2.7.5-r2

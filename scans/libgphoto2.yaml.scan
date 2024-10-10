@@ -10,6 +10,7 @@ commit = 1df6b44c0238dbb6916b5dd75108134d878b79e0
 builddate = 1715019504
 license = LGPL-2.1-or-later
 depend = libgphoto2
+depend = pc:libexif
 depend = so:libgphoto2.so.6
 depend = so:libgphoto2_port.so.12
 provides = cmd:gphoto2-config=2.5.31-r0

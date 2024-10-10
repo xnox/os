@@ -9,6 +9,7 @@ url =
 commit = b88d062c578192266e9f6c3732ed40c0ec3a2bf4
 builddate = 1727965710
 license = GPL-2.0-or-later
+depend = pc:libmnl
 depend = so:libnftnl.so.11
 provides = pc:libnftnl=1.2.8-r0
 datahash = b3246c6f9642edb71a47245402c9d79aa90648f2e71db33070639dd65216c7b6

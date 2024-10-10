@@ -22,6 +22,7 @@ url =
 commit = b4218aa017e93e2646b87346c7a7615528fd9356
 builddate = 1727696026
 license = TCL
+depend = pc:tcl
 depend = so:ld-linux-x86-64.so.2
 depend = so:libX11.so.6
 depend = so:libc.so.6

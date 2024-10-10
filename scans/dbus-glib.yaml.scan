@@ -9,6 +9,9 @@ url =
 commit = 9aba085bed3e02d3732b7bc9cb92d938e4a2cb86
 builddate = 1705088138
 license = AFL-2.1 OR GPL-2.0-or-later
+depend = pc:dbus-1
+depend = pc:glib-2.0
+depend = pc:gobject-2.0
 depend = so:libdbus-glib-1.so.2
 provides = pc:dbus-glib-1=0.112-r0
 datahash = 88cdd942bf89ac07b4324187673762a32e7ebbd247d63d94dbcfbf71effa8518

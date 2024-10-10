@@ -21,6 +21,7 @@ url =
 commit = 9558f8457e2186346c8b31d4c6003e23d6e63a54
 builddate = 1713660834
 license = LGPL-2.1-or-later
+depend = pc:libtirpc
 depend = so:libnsl.so.3
 provides = pc:libnsl=2.0.1-r1
 datahash = 90f9b874820cc5a17e10b3cc3c026d53466dbe62bea589ff0e0dbe03232315e2

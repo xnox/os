@@ -10,6 +10,7 @@ commit = 31675c90a16703bc190c94c086c5fafb519d4659
 builddate = 1722571611
 license = LGPL-2.0-or-later AND GPL-2.0-or-later OR BSD-3-Clause
 depend = openipmi
+depend = pc:ncurses
 depend = so:libIPMIlanserv.so.0
 depend = so:libOpenIPMI.so.0
 depend = so:libOpenIPMIcmdlang.so.0

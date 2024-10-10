@@ -21,6 +21,7 @@ url =
 commit = 5fd2fd51a3003f1e6e01db3a9c02c194e38ba2f4
 builddate = 1706407483
 license = BSD-3-Clause
+depend = pc:ogg
 depend = so:libtheora.so.0
 depend = so:libtheoradec.so.1
 depend = so:libtheoraenc.so.1

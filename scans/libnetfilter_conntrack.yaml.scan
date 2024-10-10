@@ -9,6 +9,7 @@ url =
 commit = ddc17c299e7a19234cf223125a33a95a82760298
 builddate = 1727659329
 license = GPL-2.0-or-later
+depend = pc:libnfnetlink
 depend = so:libnetfilter_conntrack.so.3
 provides = pc:libnetfilter_conntrack=1.1.0-r0
 datahash = 0824393c7d136f1881ed7989be7bc08d802a598a08b9fee53a83d43f9ea0d7b5

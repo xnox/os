@@ -9,6 +9,9 @@ url =
 commit = e1880184f3607e3ef199f191c4cf2c0d1f174d1d
 builddate = 1706544409
 license = MIT
+depend = pc:x11
+depend = pc:xext
+depend = pc:xineramaproto
 depend = so:libXinerama.so.1
 provides = pc:xinerama=1.1.5-r1
 datahash = 33d91c399a70a0ff87b948b516a63bf873f5f54389443693d9bac2852a822356

@@ -9,6 +9,7 @@ url =
 commit = deea42fba2b15c56f05f5bb78106c8dbd8d459a1
 builddate = 1727270792
 license = BSD-3-Clause
+depend = pc:libcrypto
 depend = so:libyara.so.10
 depend = yara
 provides = pc:yara=4.5.2-r1

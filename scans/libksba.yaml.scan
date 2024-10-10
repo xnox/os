@@ -10,6 +10,7 @@ commit = 94cc7b8f2cc2496d420cfd81910db190114193c0
 builddate = 1719132950
 license = GPL-2.0-or-later OR GPL-3.0-or-later
 depend = libksba
+depend = pc:gpg-error
 depend = so:libksba.so.8
 provides = pc:ksba=1.6.7-r0
 datahash = c3addf0baac67d34e06f025db4f49aefd6db96ec832c124f741cd3dae2bddb3e

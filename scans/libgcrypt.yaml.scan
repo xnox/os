@@ -11,6 +11,7 @@ builddate = 1725488942
 license = LGPL-2.1-or-later
 depend = libgcrypt
 depend = libgpg-error-dev
+depend = pc:gpg-error
 depend = so:libgcrypt.so.20
 provides = cmd:libgcrypt-config=1.11.0-r1
 provides = pc:libgcrypt=1.11.0-r1

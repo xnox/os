@@ -23,6 +23,7 @@ url =
 commit = 9228e478f6e3e8f3707c696e1a270294b6e35350
 builddate = 1726601722
 license = BSD-3-Clause
+depend = pc:libsasl2
 depend = so:ld-linux-x86-64.so.2
 depend = so:libc.so.6
 depend = so:libevent-2.1.so.7

@@ -9,6 +9,7 @@ url =
 commit = 3f1d32157b70fc9e814167ec82e7fca40ab73a55
 builddate = 1728494635
 license = GPL-2.0-only
+depend = pc:openssl
 depend = so:libmysqlclient.so.24
 provides = cmd:mysql_config=9.0.1-r0
 provides = mysql-dev=9.0.1-r0

@@ -10,6 +10,7 @@ commit = 3b7239cbb70da1f2e7b09fc063e46b9469c33257
 builddate = 1719254306
 license = MIT
 depend = libxau
+depend = pc:xproto
 depend = so:libXau.so.6
 depend = xorgproto
 provides = pc:xau=1.0.11-r7

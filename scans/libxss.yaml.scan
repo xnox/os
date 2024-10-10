@@ -9,6 +9,9 @@ url =
 commit = 1881c7cf956b0793265078afc90c42f410bf3f89
 builddate = 1706221254
 license = XFree86-1.1
+depend = pc:scrnsaverproto
+depend = pc:x11
+depend = pc:xext
 depend = so:libXss.so.1
 provides = pc:xscrnsaver=1.2.4-r1
 datahash = b7385757b8cc96b66536351038682581d9bb557b0545e0dd3014edcac1f23d10

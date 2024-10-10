@@ -10,6 +10,7 @@ commit = 4b45c31b83122c149d538a2e126699668a4ca3a9
 builddate = 1720141364
 license = MIT
 depend = libxslt
+depend = pc:libxml-2.0
 depend = so:libexslt.so.0
 depend = so:libxslt.so.1
 provides = cmd:xslt-config=1.1.42-r0

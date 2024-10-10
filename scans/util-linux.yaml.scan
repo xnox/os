@@ -9,6 +9,7 @@ url =
 commit = 41a70529dfa33a516620cf729cb195d1df40fb5a
 builddate = 1720115460
 license = GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND CC-PDDC
+depend = pc:sqlite3
 depend = so:libblkid.so.1
 depend = so:libfdisk.so.1
 depend = so:liblastlog2.so.2

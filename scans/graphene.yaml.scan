@@ -10,6 +10,7 @@ commit = 6e193afeeff8c289a807c083f33aa8f0df5b2966
 builddate = 1714578134
 license = MIT
 depend = graphene
+depend = pc:gobject-2.0
 depend = so:libgraphene-1.0.so.0
 provides = pc:graphene-1.0=1.10.8-r2
 provides = pc:graphene-gobject-1.0=1.10.8-r2

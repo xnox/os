@@ -60,6 +60,7 @@ url =
 commit = fa0cbec2534dcad1fbd36960b6c9f1d9f4c5a6d7
 builddate = 1723149323
 license = LGPL-2.1-or-later
+depend = pc:libcap-ng
 depend = python-3.12-base
 depend = so:ld-linux-x86-64.so.2
 depend = so:libc.so.6

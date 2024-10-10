@@ -22,6 +22,7 @@ commit = 3b7239cbb70da1f2e7b09fc063e46b9469c33257
 builddate = 1719254306
 license = MIT
 depend = libxdmcp
+depend = pc:xproto
 depend = so:libXdmcp.so.6
 provides = pc:xdmcp=1.1.5-r3
 datahash = e088af52b6cde9c3bc57878aeda4d327bbce854ba9bab833d5634f76fa61174f

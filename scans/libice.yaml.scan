@@ -34,6 +34,7 @@ commit = c14f53392cc07da494b0366ca794ab1f47a8112a
 builddate = 1718961258
 license = X11
 depend = libice
+depend = pc:xproto
 depend = so:libICE.so.6
 provides = pc:ice=1.1.1-r3
 datahash = 9dae138d08f5f19e8e3916d09f770d9551a9d369da22aebb5b8cad25ea9244c5

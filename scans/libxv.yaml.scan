@@ -10,6 +10,10 @@ commit = 9b69af9b7887656abd11f7fda8f8329c8b532836
 builddate = 1688059122
 license = MIT
 depend = libxv
+depend = pc:videoproto
+depend = pc:x11
+depend = pc:xext
+depend = pc:xproto
 depend = so:libXv.so.1
 provides = pc:xv=1.0.12-r1
 datahash = 24df22858aca7272a20ec3444da25c50f30344c11d90550d769e57747aede204

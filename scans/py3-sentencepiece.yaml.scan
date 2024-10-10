@@ -105,6 +105,7 @@ url =
 commit = b89e44bc10b25c339a19077aca900951d6e6498a
 builddate = 1727868533
 license = Apache-2.0
+depend = pc:protobuf-lite
 depend = so:ld-linux-x86-64.so.2
 depend = so:libc.so.6
 depend = so:libgcc_s.so.1

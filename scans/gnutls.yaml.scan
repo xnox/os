@@ -25,6 +25,11 @@ depend = gnutls
 depend = libtasn1-dev
 depend = nettle-dev
 depend = p11-kit-dev
+depend = pc:hogweed
+depend = pc:libtasn1
+depend = pc:nettle
+depend = pc:p11-kit-1
+depend = pc:zlib
 depend = so:libgnutls.so.30
 depend = so:libgnutlsxx.so.30
 provides = pc:gnutls=3.8.7-r0

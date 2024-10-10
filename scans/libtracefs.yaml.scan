@@ -9,6 +9,7 @@ url =
 commit = 98d355a7eef97e0604bceb95824605e3fc575d5e
 builddate = 1721858614
 license = LGPL-2.1-or-later
+depend = pc:libtraceevent
 depend = so:libtracefs.so.1
 provides = pc:libtracefs=1.8.1-r0
 datahash = 2b337b028d0b903a2b051193e5890d9f7024f16457deb3128e8c9523ae78b911

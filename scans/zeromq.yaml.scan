@@ -21,6 +21,7 @@ url =
 commit = 3b7239cbb70da1f2e7b09fc063e46b9469c33257
 builddate = 1719254306
 license = MPL-2.0
+depend = pc:libsodium
 depend = so:libzmq.so.5
 depend = zeromq
 provides = pc:libzmq=4.3.5-r1

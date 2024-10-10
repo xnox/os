@@ -11,6 +11,7 @@ builddate = 1708228715
 license = LGPL-3.0-or-later OR MPL-2.0
 depend = glib-dev
 depend = liblangtag
+depend = pc:libxml-2.0
 depend = so:liblangtag.so.1
 provides = pc:liblangtag=0.6.7-r0
 datahash = 87173f8db1e5c62b1b9c68886d3d51a4c32a2cb875940a29c553fee9de0be26c

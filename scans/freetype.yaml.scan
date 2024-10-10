@@ -26,6 +26,9 @@ depend = bzip2-dev
 depend = freetype
 depend = libpng-dev
 depend = libx11-dev
+depend = pc:libbrotlidec
+depend = pc:libpng
+depend = pc:zlib
 depend = so:libfreetype.so.6
 provides = cmd:freetype-config=2.13.3-r0
 provides = pc:freetype2=2.13.3-r0

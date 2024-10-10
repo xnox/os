@@ -27,6 +27,8 @@ url =
 commit = deea42fba2b15c56f05f5bb78106c8dbd8d459a1
 builddate = 1727270792
 license = MIT
+depend = pc:libxml-2.0
+depend = pc:libxslt
 depend = so:libxmlsec1.so.1
 provides = cmd:xmlsec1-config=1.3.4-r1
 provides = pc:xmlsec1-openssl=1.3.4-r1

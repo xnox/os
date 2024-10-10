@@ -9,6 +9,8 @@ url =
 commit = a0d9ab788492093f192c53f70f98670c348c33e8
 builddate = 1707270066
 license = Apache-2.0 AND Zlib
+depend = pc:libcrypto
+depend = pc:libssl
 depend = serf
 depend = so:libserf-1.so.1
 provides = pc:serf-1=1.3.10-r0

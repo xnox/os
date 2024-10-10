@@ -10,6 +10,7 @@ commit = 3b7239cbb70da1f2e7b09fc063e46b9469c33257
 builddate = 1719254306
 license = MIT
 depend = libxpm
+depend = pc:x11
 depend = so:libXpm.so.4
 provides = pc:xpm=3.5.17-r3
 datahash = 72d418847ad365e8475e4e9b1d8d5998a8f376f7c7838d05279035e67a8df97d

@@ -15,6 +15,13 @@ depend = libpng-dev
 depend = libwebp-dev
 depend = openjpeg-dev
 depend = openjpeg-tools
+depend = pc:libjpeg
+depend = pc:libopenjp2
+depend = pc:libpng
+depend = pc:libtiff-4
+depend = pc:libwebp
+depend = pc:libwebpmux
+depend = pc:zlib
 depend = tiff-dev
 depend = zlib-dev
 provides = pc:lept=1.84.1-r3

@@ -10,6 +10,7 @@ commit = d905760613c70702b4fd993451ca8fddfc82caff
 builddate = 1718905107
 license = GPL-2.0-only
 depend = ipset
+depend = pc:libmnl
 depend = so:libipset.so.13
 provides = pc:libipset=7.22-r1
 datahash = 8d7896c1c9b6e827b9fb51b2ac727d47613f31f7a480aecd51286293ce4ef821

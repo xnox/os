@@ -10,6 +10,7 @@ commit = 2bcab34895255682e286a65b6b794ca7c5fde5ae
 builddate = 1721321022
 license = LGPL-2.1-or-later
 depend = libassuan
+depend = pc:gpg-error
 depend = so:libassuan.so.9
 provides = pc:libassuan=3.0.1-r0
 datahash = 976c0e466ba15dab97895217f60391f864edd5022701e71085cbee33aa809837

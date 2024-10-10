@@ -10,6 +10,12 @@ commit = 7c17cfe81612c03dfd33816cb0ca09b8dce5ca96
 builddate = 1710099057
 license = MIT
 depend = libxaw
+depend = pc:x11
+depend = pc:xext
+depend = pc:xmu
+depend = pc:xpm
+depend = pc:xproto
+depend = pc:xt
 depend = so:libXaw.so.7
 provides = pc:xaw7=1.0.16-r0
 datahash = 6b74425018b95504934a0f81365f86f195520c44c3c0eba25ccf339fbe00933e

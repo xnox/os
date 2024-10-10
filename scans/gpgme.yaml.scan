@@ -22,6 +22,9 @@ commit = 2bcab34895255682e286a65b6b794ca7c5fde5ae
 builddate = 1721321022
 license = GPL-3.0-or-later
 depend = gpgme
+depend = pc:glib-2.0
+depend = pc:gpg-error
+depend = pc:libassuan
 depend = so:libgpgme.so.11
 depend = so:libgpgmepp.so.6
 provides = pc:gpgme-glib=1.23.2-r1

@@ -10,6 +10,7 @@ commit = f439b5d01c729f1c377bc2f2673262ab33014c9d
 builddate = 1728393310
 license = GPL-3.0-or-later
 license = BSD-3-Clause
+depend = pc:openssl
 depend = so:libperconaserverclient.so.24
 provides = cmd:mysql_config=8.4.0.1-r0
 provides = pc:perconaserverclient=8.4.0.1-r0

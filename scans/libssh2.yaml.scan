@@ -9,6 +9,8 @@ url =
 commit = 3b7239cbb70da1f2e7b09fc063e46b9469c33257
 builddate = 1719254306
 license = BSD-3-Clause
+depend = pc:libcrypto
+depend = pc:libssl
 depend = so:libssh2.so.1
 provides = pc:libssh2=1.11.0-r4
 datahash = bc8335c22cc2497de12746362c4e19f24150fed880fa9560a9613eb11afc72af

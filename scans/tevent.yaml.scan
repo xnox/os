@@ -9,6 +9,7 @@ url =
 commit = 49be149a5d3dcad2be93ab0a7c940cba33bb6b41
 builddate = 1720619628
 license = LGPL-3.0-or-later
+depend = pc:talloc
 depend = so:libtevent.so.0
 depend = tevent
 provides = pc:tevent=0.16.1-r0

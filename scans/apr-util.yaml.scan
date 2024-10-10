@@ -14,6 +14,7 @@ depend = expat-dev
 depend = gdbm-dev
 depend = openldap-dev
 depend = openssl-dev
+depend = pc:apr-1
 depend = postgresql-16-dev
 depend = so:libaprutil-1.so.0
 depend = sqlite-dev

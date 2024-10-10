@@ -10,6 +10,9 @@ commit = 5fd2fd51a3003f1e6e01db3a9c02c194e38ba2f4
 builddate = 1706407483
 license = MIT
 depend = libxfixes
+depend = pc:fixesproto
+depend = pc:x11
+depend = pc:xproto
 depend = so:libXfixes.so.3
 provides = pc:xfixes=6.0.1-r1
 datahash = 93e6e277782ad66a9f9f639f666223b58f848b05f7c01c50f2387f3e3238570b

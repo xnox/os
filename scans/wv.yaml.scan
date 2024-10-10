@@ -9,6 +9,7 @@ url =
 commit = 0408443efcd2e91ed9c8e4dc77e28f3a387aaeda
 builddate = 1727287824
 license = GPL-2.0-or-later
+depend = pc:libgsf-1
 depend = so:libwv-1.2.so.4
 depend = wv
 provides = pc:wv-1.0=1.2.9-r2

@@ -9,6 +9,8 @@ url =
 commit = ded406965caf802353d15dd2655446ae3acd24a0
 builddate = 1723662494
 license = LGPL-2.1-only
+depend = pc:glib-2.0
+depend = pc:gmodule-no-export-2.0
 depend = so:libenchant-2.so.2
 provides = pc:enchant-2=2.8.2-r0
 datahash = 78904256d965ca40ebde62b770a6486f6b061e2fb3ba7869db0cd3b59e6e0544

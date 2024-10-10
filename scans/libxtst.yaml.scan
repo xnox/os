@@ -11,6 +11,11 @@ builddate = 1722597309
 license = XFree86-1.1
 depend = libxi-dev
 depend = libxtst
+depend = pc:recordproto
+depend = pc:x11
+depend = pc:xext
+depend = pc:xextproto
+depend = pc:xi
 depend = so:libXtst.so.6
 provides = pc:xtst=1.2.5-r0
 datahash = 5872faf6993d97ee49ce097f51686cc8f630ffe5d8a1cbdedd9f509ebdef2af0

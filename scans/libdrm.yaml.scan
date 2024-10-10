@@ -9,6 +9,7 @@ url =
 commit = c882089ee5c06c71e42db515480dd6dea95e4f1c
 builddate = 1724747037
 license = MIT
+depend = pc:pciaccess
 depend = so:libdrm.so.2
 depend = so:libdrm_amdgpu.so.1
 depend = so:libdrm_etnaviv.so.1

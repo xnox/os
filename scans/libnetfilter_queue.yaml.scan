@@ -9,6 +9,7 @@ url =
 commit = 94cc7b8f2cc2496d420cfd81910db190114193c0
 builddate = 1719132950
 license = GPL-2.0-or-later
+depend = pc:libnfnetlink
 depend = so:libnetfilter_queue.so.1
 provides = pc:libnetfilter_queue=1.0.5-r4
 datahash = 1a0e63a3136557afb5a33923e04c87c04fd18704a4b08c8c490f3f05ca72d408

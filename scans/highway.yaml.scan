@@ -58,6 +58,7 @@ url =
 commit = 9228e478f6e3e8f3707c696e1a270294b6e35350
 builddate = 1726601722
 license = Apache-2.0
+depend = pc:gtest
 depend = so:libhwy.so.1
 depend = so:libhwy_contrib.so.1
 depend = so:libhwy_test.so.1

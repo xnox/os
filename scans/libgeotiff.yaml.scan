@@ -9,6 +9,8 @@ url =
 commit = 9228e478f6e3e8f3707c696e1a270294b6e35350
 builddate = 1726601722
 license = MIT
+depend = pc:libtiff-4
+depend = pc:proj
 depend = so:libgeotiff.so.5
 provides = pc:libgeotiff=1.7.3-r1
 datahash = 3cc94a470abe0bf1c8eb89d331f6d1834fd3c4b91101b924c22f7522666c52de

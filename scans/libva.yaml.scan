@@ -9,6 +9,7 @@ url =
 commit = c9edc2e3fa301b5916881f3366e7c40454034685
 builddate = 1719939174
 license = MIT
+depend = pc:wayland-client
 depend = so:libva-drm.so.2
 depend = so:libva-wayland.so.2
 depend = so:libva-x11.so.2

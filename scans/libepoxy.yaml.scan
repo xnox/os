@@ -9,6 +9,7 @@ url =
 commit = c6ca9a19205c6b5fa785bb05c068ecc8708f8308
 builddate = 1715255174
 license = MIT
+depend = pc:x11
 depend = so:libepoxy.so.0
 provides = pc:epoxy=1.5.10-r2
 datahash = 5c9caaa56defa857cd126e5be2bbf092769681aaaca16e3b299dcccbddd4aebd

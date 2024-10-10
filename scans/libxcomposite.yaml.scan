@@ -10,6 +10,10 @@ commit = 3b7239cbb70da1f2e7b09fc063e46b9469c33257
 builddate = 1719254306
 license = MIT
 depend = libxext-dev
+depend = pc:compositeproto
+depend = pc:x11
+depend = pc:xfixes
+depend = pc:xproto
 depend = so:libXcomposite.so.1
 provides = pc:xcomposite=0.4.6-r3
 datahash = 3699ab2532a682cc47d2419f8628bff80aa66e73bbe0f79b90958842ac2f9829

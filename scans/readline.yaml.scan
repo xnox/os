@@ -9,6 +9,7 @@ url =
 commit = 2744b28f9058f77275eb2a7d57f34127b61b1332
 builddate = 1724657931
 license = GPL-3.0-or-later
+depend = pc:tinfo
 depend = readline
 depend = so:libhistory.so.8
 depend = so:libreadline.so.8

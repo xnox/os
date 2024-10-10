@@ -9,6 +9,11 @@ url =
 commit = c73bdfc3c499889d0ce8551ec48526dd78f5c27f
 builddate = 1722596600
 license = BSD-4-Clause
+depend = pc:fontenc
+depend = pc:fontsproto
+depend = pc:freetype2
+depend = pc:xproto
+depend = pc:zlib
 depend = so:libXfont2.so.2
 provides = pc:xfont2=2.0.7-r0
 datahash = e9bba2870ae234f024b6379196a737fcdead8f0f87eb7b6094d724ec11f6708f

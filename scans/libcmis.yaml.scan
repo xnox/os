@@ -21,6 +21,8 @@ url =
 commit = 3221689b37889a79a8bf3b6c5a5ea044454a9c83
 builddate = 1728504909
 license = GPL-2.0-or-later
+depend = pc:libcurl
+depend = pc:libxml-2.0
 depend = so:libcmis-0.6.so.6
 depend = so:libcmis-c-0.6.so.6
 provides = pc:libcmis-0.6=0.6.2-r1

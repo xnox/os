@@ -50,6 +50,8 @@ url =
 commit = aca7b2e657523443c6e6e8be22fa653f31f18454
 builddate = 1716549744
 license = MIT
+depend = pc:expat
+depend = pc:freetype2
 depend = so:libfontconfig.so.1
 provides = pc:fontconfig=2.15.0-r1
 datahash = da13ed9f58b20c8768d93af6b6dbc44d1a3108edf8c05098226408859c7afe7c

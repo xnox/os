@@ -9,6 +9,11 @@ url =
 commit = b188f24d5d2fe765ac54d86c7c8aea6ef0058d43
 builddate = 1724897785
 license = BSD-2-Clause
+depend = pc:libcrypto
+depend = pc:liblz4
+depend = pc:libssl
+depend = pc:libzstd
+depend = pc:zlib
 depend = so:librdkafka++.so.1
 depend = so:librdkafka.so.1
 provides = pc:rdkafka++=2.3.0-r3

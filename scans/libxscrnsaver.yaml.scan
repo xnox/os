@@ -10,6 +10,9 @@ commit = 9aba085bed3e02d3732b7bc9cb92d938e4a2cb86
 builddate = 1705088138
 license = MIT
 depend = libxscrnsaver
+depend = pc:scrnsaverproto
+depend = pc:x11
+depend = pc:xext
 depend = so:libXss.so.1
 provides = pc:xscrnsaver=1.2.4-r0
 datahash = fc7856fe93b89b372ab7ddc3e5f06b3e84d81a9e4a4dcc837a23dd709bb1cc65

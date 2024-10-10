@@ -9,6 +9,7 @@ url =
 commit = e4d1017dff0bda200ce3ca44bc754a16c34e8a0c
 builddate = 1689807544
 license = MIT
+depend = pc:alsa
 depend = portaudio
 depend = so:libportaudio.so.2
 depend = so:libportaudiocpp.so.0
