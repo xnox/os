@@ -6,7 +6,7 @@ inputs:
     required: true
   image:
     description: "The image to use"
-    default: "ghcr.io/wolfi-dev/sdk:latest@sha256:aea64123d532f1d215763a8064cc087bc2ff2c99af65c7b3210f599454bdf257"
+    default: "ghcr.io/wolfi-dev/sdk:latest@sha256:16e05ea526a250ddb3e24167ecc6494b29961d0e5fc02b716b9eea31e82439f8"
     required: false
   workdir:
     description: "The images working directory"
