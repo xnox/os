@@ -45,6 +45,8 @@ pipeline:
 
 subpackages:
   - name: "scanelf"
+    dependencies:
+      provider-priority: 10
     pipeline:
       - runs: |
           mkdir -p "${{targets.subpkgdir}}"/usr/bin
